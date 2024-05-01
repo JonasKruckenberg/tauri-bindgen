@@ -18,5 +18,5 @@ schemars.workspace = true
 
 [dev-dependencies]
 pretty_assertions = "1.4.0"
-schemars = { version = "0.8.16", features = ["impl_json_schema"] }
+schemars = { version = "0.8.17", features = ["impl_json_schema"] }
 serde_json.workspace = true
