@@ -11,7 +11,7 @@ console_error_panic_hook = "0.1"
 wasm-bindgen = "0.2"
 web-sys = { version = "0.3", features = ["Window", "Document", "HtmlElement", "Node", "Text"] }
 wasm-logger = "0.2.0"
-miette = { version = "5.10.0", features = ["fancy"] }
+miette = { version = "7.0.0", features = ["fancy"] }
 log = { version = "0.4.20", features = [ "kv_unstable", "kv_unstable_std" ] }
 tauri-bindgen-core = { path = "../crates/core" }
 tauri-bindgen-gen-host = { path = "../crates/gen-host" }
