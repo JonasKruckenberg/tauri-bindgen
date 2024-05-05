@@ -27,7 +27,7 @@ tauri-bindgen-gen-guest-rust = { path = "crates/gen-guest-rust", features = ['cl
 tauri-bindgen-gen-guest-ts = { path = "crates/gen-guest-ts", features = ['cli'] }
 tauri-bindgen-gen-guest-js = { path = "crates/gen-guest-js", features = ['cli'] }
 wit-parser = { path = "crates/wit-parser" }
-miette = { version = "5.10.0", features = ["fancy"] }
+miette = { version = "7.0.0", features = ["fancy"] }
 log = { version = "0.4.20", features = [ "kv_unstable", "kv_unstable_std" ] }
 serde = "1.0.195"
 quote = "1.0.35"
