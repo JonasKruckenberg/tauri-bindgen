@@ -12,7 +12,7 @@ test = false
 [dependencies]
 tauri-bindgen-core.workspace = true
 heck.workspace = true
-pulldown-cmark = { version = "0.9", default-features = false }
+pulldown-cmark = { version = "0.12", default-features = false }
 clap = { workspace = true, optional = true }
 wit-parser.workspace = true
 log.workspace = true
