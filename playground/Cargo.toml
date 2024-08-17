@@ -20,4 +20,4 @@ tauri-bindgen-gen-guest-rust = { path = "../crates/gen-guest-rust" }
 tauri-bindgen-gen-guest-ts = { path = "../crates/gen-guest-ts" }
 tauri-bindgen-gen-guest-js = { path = "../crates/gen-guest-js" }
 wit-parser = { path = "../crates/wit-parser" }
-pulldown-cmark = { version = "0.9", default-features = false }
+pulldown-cmark = { version = "0.12", default-features = false }
